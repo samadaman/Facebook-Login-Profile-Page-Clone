@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>facebook-messenger</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+
+        body{
+            background: #e9e9ee !important;
+        }
+
+        .nav__btn button:hover {
+            background: #f0f2f5 !important;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        nav .btn {
+            color: rgb(104, 103, 103);
+            height: 55px;
+            width: 120px;
+        }
+
+        .link {
+            border-top: 1px solid rgb(175, 174, 174);
+            width: 890px;
+        }
+
+        .link a {
+            margin-top: 3px;
+            color: rgb(153, 152, 152);
+            padding: 15px 10px 15px 10px;
+            border-radius: 6px;
+
+        }
+
+        .link a:hover {
+            background-color: #d9dbde;
+        }
+
+        #post {
+            color: rgb(100, 100, 245);
+            border-radius: 0%;
+            border-bottom: 3px solid rgb(100, 100, 245);
+        }
+        .bgg{
+            height: 200px;
+        }
+    </style>
+
+    <div class=" bg-white d-flex align-items-center fixed=top shadow position-fixed w-100"
+        style="min-height: 56px; z-index: 5;">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col d-flex align-items-center">
+                    <img src="https://img.icons8.com/fluency/96/null/facebook-new.png" height="50">
+                    <div class="input-group ms-2">
+                        <span class="input-group-prepend d-lg-block">
+                            <input class="input-group-text bg-grey border-0 rounded-pill" type="search"
+                                placeholder=" ⌕ Search Facebook" aria-label="Search"
+                                style="min-height: 40px; min-width: 230px;">
+                    </div>
+                    </span>
+                </div>
+
+                <div class="col d-none d-lg-flex justify-content-center" style="width: 500px;">
+                    <div class="mx-4 nav__btn nav__btn-active">
+                        <button class="btn px-4">
+                            <img src="https://img.icons8.com/small/64/null/home-page.png" height="30">
+                        </button>
+                    </div>
+
+                    <div class="mx-4 nav__btn nav__btn-active">
+                        <button class="btn px-4">
+                            <img src="https://img.icons8.com/windows/30/null/shop.png" />
+                        </button>
+                    </div>
+
+                    <div class="mx-4 nav__btn nav__btn-active">
+                        <button class="btn px-4">
+                            <img src="https://img.icons8.com/ios/30/null/conference-call--v1.png">
+                        </button>
+                    </div>
+
+                    <div class="mx-4 nav__btn nav__btn-active">
+                        <button class="btn px-4">
+                            <img src="https://img.icons8.com/sf-black-filled/30/null/rubiks-cube.png" />
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col d-flex align-items-center justify-content-end" style="width: fit-content;">
+                    <button
+                        style="width: 38px; height: 38px; object-fit: cover; border-radius: 50px; border: none; padding: 1px 10px 1px 10px; "><img
+                            src="https://img.icons8.com/android/48/null/plus.png" height="20"></button>
+
+                    <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-gray rounded-circle"
+                        style="width: 38px; height: 38px; object-fit: cover;">
+                        <button
+                            style="width: 38px; height: 38px; object-fit: cover; border-radius: 50px; border: none; padding: 1px 10px 1px 10px; "><img
+                                src="https://img.icons8.com/ios-glyphs/20/null/facebook-messenger.png"
+                                height="20"></button>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-gray rounded-circle"
+                        style="width: 38px; height: 38px; object-fit: cover;">
+                        <button
+                            style="width: 38px; height: 38px; object-fit: cover; border-radius: 50px; border: none; padding: 1px 10px 1px 10px; "><img
+                                src="https://img.icons8.com/sf-black-filled/20/null/appointment-reminders.png"></button>
+
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center p-1 mx-2 bg-gray rounded-circle"
+                        style="width: 38px; height: 38px; object-fit: cover;">
+                        <img src="https://scontent.fdel6-1.fna.fbcdn.net/v/t39.30808-6/311153317_810837236627923_3694494073490726171_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Mkbvo1EY9ZgAX_0ap8l&_nc_ht=scontent.fdel6-1.fna&oh=00_AfDOEldCPobGPgoe_GIBtKKsimpD5e9wEto3qCbICoWqIQ&oe=639A585F"
+                            class="rounded-circle me-1"
+                            style="width: 38px !important; height: 38px !important; object-fit: cover !important;"
+                            alt="">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class=" container-fluid parent shadow-sm rounded bg-body">
+        <div class="container">
+            <div class="container-md d-flex justify-content-center" style="object-fit: cover;"><img class=" rounded-3"
+                    src="https://scontent.fdel6-1.fna.fbcdn.net/v/t31.18172-8/19575079_10103832396388711_8894816584589808440_o.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=RAncsmYKzOYAX8I3R2v&_nc_ht=scontent.fdel6-1.fna&oh=00_AfCfX3WP_I7PGy1xTlqn0st3kJLHBlQCcpmKJEj6LFezmg&oe=63BBA43D"
+                    alt="" width="950px" height="412px"></div>
+        </div>
+
+        <div class="container d-sm-flex flex-direction-colomn d-block d-flex" style="height: 90px;">
+            <img class="rounded-circle " style=" position: relative; bottom: 95px; left: 120px; border: 4px solid #fff;"
+                src="https://scontent.fdel6-1.fna.fbcdn.net/v/t39.30808-6/312257846_10114737758665291_6588360857015169674_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=C0pslyUAwhcAX-8pMiu&tn=SRIigQ2VFBRHovsA&_nc_ht=scontent.fdel6-1.fna&oh=00_AfDTpqciXM0OOAY0YBmdYlD8JaYwF4eTNojeOOaA5beY3A&oe=6398B3EE"
+                alt="" height="180">
+            <h2 class=" d-sm-flex flex-direction-colomn d-flex align-items-center fw-bolder" style="position: relative; left: 135px; top: 10px;">
+                Mark Zuckerberg
+
+                <span style="padding-left: 8px;"><img src="tick.png" alt=""></span>
+            </h2>
+
+            <div class="container w-50 d-flex justify-content-end align-items-center"
+                style="position: relative; right: 50px;">
+
+                <button class="bg-primary border-0 text-white fw-semibold rounded" style="height: 35px; width: 90px;">
+                    <span><img src="follow.png" alt="" height="18"></span> Follow</button>
+
+                <button class="ms-2 border-0 fw-semibold rounded"
+                    style="height: 35px; width: 100px; background-color: #e9e9ee;">
+                    <span><img src="https://img.icons8.com/ios-glyphs/20/null/facebook-messenger.png"
+                            height="18"></span> Message</button>
+            </div>
+
+
+        </div>
+        <!-- <div class="container">
+      <hr class="hori">
+    </div> -->
+        <!-- <div class="container">
+        <hr class="">
+        <nav class="btn d-flex text-secondary">
+            <div class=" nav__btn-active">
+                <button class="btn px-4 fw-semibold text-primary" style="border: none; border-radius: 0%; border-bottom: 3px solid rgb(109, 109, 246); ">
+                    Post
+                </button>
+            </div>
+
+            <div class=" nav__btn nav__btn-active">
+                <button class="btn px-4 fw-semibold">
+                    About
+                </button>
+            </div>
+
+            <div class=" nav__btn nav__btn-active">
+                <button class="btn px-4 fw-semibold">
+                    Friends
+                </button>
+            </div>
+
+            <div class=" nav__btn nav__btn-active">
+                <button class="btn px-4 fw-semibold">
+                    Photos
+                </button>
+            </div>
+
+            <div class=" nav__btn nav__btn-active">
+                <button class="btn px-4 fw-semibold">
+                    Videos
+                </button>
+            </div>
+
+            <div class=" nav__btn nav__btn-active">
+                <button class="btn px-4 fw-semibold">
+                    Check-ins
+                </button>
+            </div>
+        </nav>
+    </div> -->
+
+        <div class="container d-flex mt-2 link" style="position: relative;">
+
+            <a class="text-decoration-none fw-semibold" id="post" href="#">Post</a>
+            <a class="text-decoration-none fw-semibold" href="#">About</a>
+            <a class="text-decoration-none fw-semibold" href="#">Friends</a>
+            <a class="text-decoration-none fw-semibold" href="#">Photos</a>
+            <a class="text-decoration-none fw-semibold" href="#">Videos</a>
+            <a class="text-decoration-none fw-semibold" href="#">Check-ins</a>
+            <span class="d-flex justify-content-end align-items-center w-50"
+                style="position: relative; left: 30px;"><button class="border-0 rounded-2"
+                    style="padding: 5px 18px 7px 18px; background-color: #e4e4e7;"><img
+                        src="https://img.icons8.com/fluency-systems-filled/15/null/ellipsis.png" /></button></span>
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row ">
+          <div class="col-6 bg-success d-flex justify-content-center">
+            <div class="card " style="width: 22rem; border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"">
+
+                <div class="card-body">
+                  <h5 class="card-title mb-2 fw-bold ">Intro</h5>
+                  <p class="card-text text-center mb-1">Bringing the world closer together.</p>
+                  <hr class="mt-2">
+
+                  <div class="list">
+                    <p>
+                     Founder and CEO at <a href="#">Meta</a></p>
+                     
+                    <p>
+                        Work at <a href="#">Chan Zuckerberg Initiative</a></p>
+
+                    <p>
+                         Studied Computer Science and Psychology at <a href="#">Harvard University</a> </p>
+
+                    <p>
+                         Lives in <a href="#">Palo Alto, California</a></p>
+                         
+                    <p>
+                         From <a href="#">Dobbs Ferry, New York</a></p>
+                         
+                    <p>
+                        Married to <a href="#">Priscilla Chan</a></p>
+                        
+                    <p>
+                        Followed by <a href="#">119,131,923 people</a> </p>
+                    
+                  </div>
+
+                </div>
+                
+              </div>
+          </div>
+
+
+          
+          <div class="col-6 bg-primary">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

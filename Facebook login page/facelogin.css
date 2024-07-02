@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
+  box-sizing: border-box;
+}
+.dark {
+  background-color: rgb(43, 41, 41);
+}
+
+
+@media (min-width: 99px) and (max-width: 830px){
+
+  .child1{
+    display: none; 
+  }
+  
+  .child2{
+    position: relative;
+    left: 50%;
+  }
+  .linkf{
+    display: none;
+  }
+}
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  height: 450px;
+}
+.formDark {
+  background-color: rgb(56, 54, 54);
+}
+
+.formDark h2 {
+  color: rgb(194, 189, 189);
+}
+
+.child1 {
+  margin-left: 80px;
+}
+.child1 img {
+  margin: 0px;
+}
+.child1 h2 {
+  margin-top: 0%;
+  font-size: 20px;
+  height: 0%;
+  line-height: 25px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.child2 {
+  padding-left: 12%;
+  padding-top: 1%;
+}
+.child2 input {
+  height: 30px;
+  border-radius: 4px;
+  width: 237px;
+  outline: 0px;
+  border: none;
+  /* border: 1px solid rgb(230, 223, 223); */
+  border: 1px solid #dddfe2;
+  margin-top: 3%;
+}
+
+.child2 input::placeholder {
+  font-size: smaller;
+  padding-left: 3%;
+  color: rgb(141, 137, 137);
+}
+
+.log {
+  margin-top: 11px;
+  height: 32px;
+
+  border-radius: 4px;
+  border: none;
+  background-color: #1877f2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.log:hover {
+  background-color: #0d6ce8;
+  transition: 250ms;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 230px;
+  padding-left: 11px;
+  padding-right: 10px;
+  padding-top: 3px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+}
+.box a {
+  font-size: 11px;
+  font-weight: bold;
+  color: rgba(11, 4, 149, 0.979);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+}
+.boxDark {
+  background-color: rgb(82, 81, 81);
+}
+.boxDark input {
+  background-color: rgb(112, 111, 111);
+}
+.boxDark input::placeholder {
+  color: #ddd6d6;
+}
+.boxDark a {
+  color: grey;
+}
+.box a:hover {
+  text-decoration: underline;
+}
+.hori {
+  margin-top: 5%;
+  width: 100%;
+  border: none;
+  height: 0.1px;
+  background-color: #dddfe2;
+}
+.bcna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-cna {
+  margin-top: 3%;
+  height: 32px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #42b72a;
+  color: #fff;
+  cursor: pointer;
+}
+.b-cna:hover {
+  background-color: #30a319;
+  transition: 250ms;
+}
+.lst-lnk {
+  display: flex;
+  margin-left: 6%;
+  font-size: 10px;
+  word-spacing: 5%;
+  margin-top: 4%;
+}
+.lst-lnk a {
+  font-weight: bolder;
+  margin-top: 2px;
+  color: rgb(45, 43, 43);
+  text-decoration: none;
+  padding-left: 4%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.lst-lnk a:hover {
+  text-decoration: underline;
+}
+.linkDark {
+  color: grey;
+}
+.linkDark a {
+  color: grey;
+}
+.pbtn {
+  height: 15px;
+  padding: 0%;
+  width: 22px;
+  border: 1px solid rgb(217, 208, 208);
+  text-align: center;
+  cursor: pointer;
+}
+.lhr {
+  border: none;
+  background-color: #ddd6d6;
+  height: 0.1px;
+  line-height: 0%;
+  margin: 0;
+  margin-bottom: 1%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  padding-left: 8%;
+ 
+}
+.linkf {
+  width: 700px;
+}
+.linkf a {
+  text-decoration: none;
+  color: #8b8888;
+  font-size: 8px;
+}
+.mnu-lnk {
+  line-height: 12px;
+  padding-bottom: 5%;
+}
+
+.mnu-lnk a {
+  margin: 0;
+  height: 0px;
+  padding: 0;
+  font-size: 8px;
+  /* letter-spacing: 1px; */
+  word-spacing: 10px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
